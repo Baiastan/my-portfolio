@@ -1,0 +1,14 @@
+.custom-class {
+  padding: 8px 10px;
+  background-color: #7e63d7;
+  color: white;
+  border-width: 1px 1px 2px 1px;
+  border-style: solid;
+  border-color: #222;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1em;
+  margin: 3px;
+  opacity: 1;
+}
