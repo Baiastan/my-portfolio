@@ -18,7 +18,7 @@ export const projects = [
     title: "Trucker's Income Tracker",
     description: "",
     image: "../../assets/trucker-income-tracker.png",
-    link: "https://truckerdashboar.netlify.app",
+    link: "https://truckerdashboard.netlify.app",
     sourceCode: "https://github.com/Baiastan/TruckersDashboard",
     techStack: ["React", "Context API", "SASS", "React Router", "Recharts"],
   },
