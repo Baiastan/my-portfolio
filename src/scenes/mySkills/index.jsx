@@ -11,6 +11,8 @@ const skills = [
   "Java",
   "React",
   "Redux",
+  "Redux Saga",
+  "RTK Query",
   "Context API",
   "React Hooks",
   "HTML5",
@@ -31,7 +33,6 @@ const skills = [
   "Postman",
   "Firebase",
   "REST API",
-  "JSON",
   "Frontend",
   "Backend",
   "Responsive Web Design",
@@ -41,6 +42,7 @@ const skills = [
   "CI/CD",
   "Jenkins",
   "NPM",
+  "GPT-4",
 ];
 
 const container = {
@@ -80,11 +82,7 @@ const MySkills = () => {
               className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
             before:w-full before:h-full before:border-2 before:border-white before:z-[-1]"
             >
-              <img
-                alt="skills"
-                className="z-10"
-                src="assets/technical-skills.png"
-              />
+              <img alt="skills" className="z-10" src="assets/technical-skills.png" />
             </div>
           ) : (
             <></>

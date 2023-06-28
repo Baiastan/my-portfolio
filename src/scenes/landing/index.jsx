@@ -8,10 +8,7 @@ const Landing = ({ setSelectedPage }) => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 
   return (
-    <section
-      id="home"
-      className="md:flex md:justify-between md:items-center md:h-full gap-16 py-10"
-    >
+    <section id="home" className="md:flex md:justify-between md:items-center md:h-full gap-16 py-10">
       {/* IMAGE SECION */}
       <div className="md:order-2 flex justify-center basis-3/5 z-10 mt-16 md:mt-32">
         {isAboveMediumScreens ? (
@@ -57,8 +54,7 @@ const Landing = ({ setSelectedPage }) => {
             </span>
           </p>
           <p className="mt-10 mb-7 text-l text-center md:text-start">
-            Result-driven Frontend Engineer with 2+ years of experience building
-            React-based web applications.
+            Result-driven Frontend Engineer with 3+ years of experience building React-based web applications.
           </p>
         </motion.div>
         {/* CALL TO ACTIONS */}
