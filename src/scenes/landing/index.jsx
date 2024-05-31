@@ -54,7 +54,8 @@ const Landing = ({ setSelectedPage }) => {
             </span>
           </p>
           <p className="mt-10 mb-7 text-l text-center md:text-start">
-            Result-driven Frontend Engineer with 3+ years of experience building React-based web applications.
+            Experienced Software Engineer with over 5 years of demonstrated history in developing diverse web
+            applications. Skilled in collaborating with fast-paced teams focused on quick turnarounds.
           </p>
         </motion.div>
         {/* CALL TO ACTIONS */}
