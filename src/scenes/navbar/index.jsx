@@ -17,16 +17,13 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
         {isAboveSmallScreens ? (
           <div className="flex justify-between gap-16 font-opensans text-sm font-semibold">
             <NavLinks
-              links={["Home", "Skills", "Projects", "Contact"]}
+              links={["Home", "Skills", "Projects"]}
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
           </div>
         ) : (
-          <button
-            className="rounded-full bg-red p-2"
-            onClick={() => setIsMenuToggled(!isMenuToggled)}
-          >
+          <button className="rounded-full bg-red p-2" onClick={() => setIsMenuToggled(!isMenuToggled)}>
             <img alt="menu" src="../assets/menu-icon.svg" />
           </button>
         )}
@@ -42,7 +39,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             {/* MENU ITEMS */}
             <div className="flex flex-col gap-10 ml-[33%] text-2xl text-deep-blue">
               <NavLinks
-                links={["Home", "Skills", "Projects", "Contact"]}
+                links={["Home", "Skills", "Projects"]}
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />

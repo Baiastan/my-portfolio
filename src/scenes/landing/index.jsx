@@ -70,14 +70,14 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <AnchorLink
+          <a
+            href="https://calendly.com/baiastan-zhuzupbekov/15-min-phone-call"
+            target="_blank"
             className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold hover:bg-blue
              hover:text-yellow transition duration-500"
-            onClick={() => setSelectedPage("contact")}
-            href="#contact"
           >
-            <div>Contact Me</div>
-          </AnchorLink>
+            Contact Me
+          </a>
         </motion.div>
         <motion.div
           className="flex mt-5 justify-center md:justify-start"
