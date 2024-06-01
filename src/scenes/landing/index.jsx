@@ -73,6 +73,7 @@ const Landing = ({ setSelectedPage }) => {
           <a
             href="https://calendly.com/baiastan-zhuzupbekov/15-min-phone-call"
             target="_blank"
+            rel="noreferrer"
             className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold hover:bg-blue
              hover:text-yellow transition duration-500"
           >
