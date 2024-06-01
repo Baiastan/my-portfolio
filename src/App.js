@@ -6,7 +6,6 @@ import DotGroup from "./scenes/dotgroup";
 import LineGradient from "./components/LineGradient";
 import MySkills from "./scenes/mySkills";
 import MyProjects from "./scenes/myProjects";
-import Contact from "./scenes/contact";
 import Footer from "./scenes/footer";
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
